@@ -31,7 +31,7 @@ make
 #Run via ssh
 ./visual_tracker
 
-Be sure you have non-gui linux, monitor and mouse connected to orange pi 5 directly.
+Be sure you have non-gui linux, monitor and mouse connected to orange pi 5 directly. Your camera should be as /dev/video11. Change line 240 in main.cpp if your camera connected to another point:     cv::VideoCapture cap(11, cv::CAP_V4L2); // V4L2 camera
 
 Left-click object you want to track, right-click to stop tracking
 
