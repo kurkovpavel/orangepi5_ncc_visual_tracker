@@ -28,7 +28,11 @@ Remove all files in /build
 cmake ..
 make
 
-#Run
+#Run via ssh
 ./visual_tracker
 
-Be sure you have non-gui linux and mouse connected to usb
+Be sure you have non-gui linux, monitor and mouse connected to orange pi 5 directly.
+
+Left-click object you want to track, right-click to stop tracking
+
+
