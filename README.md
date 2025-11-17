@@ -15,7 +15,9 @@ echo "/usr/lib/libmali-g610.so" | sudo tee /etc/OpenCL/vendors/mali.icd
 
 #install opencl:
 sudo apt install ocl-icd-opencl-dev -y
+
 sudo apt install libxcb-dri2-0 libxcb-dri3-0 libwayland-client0 libwayland-server0 libx11-xcb1 -y
+
 sudo apt install clinfo -y
 
 #Check clinfo:
