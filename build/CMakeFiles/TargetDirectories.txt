@@ -1,0 +1,3 @@
+/home/orangepi/opencl_tracker/build/CMakeFiles/visual_tracker.dir
+/home/orangepi/opencl_tracker/build/CMakeFiles/edit_cache.dir
+/home/orangepi/opencl_tracker/build/CMakeFiles/rebuild_cache.dir
